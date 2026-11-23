@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#080C12" />
+  <g opacity="0.5">
+    <circle cx="120" cy="500" r="3.5" fill="#54E6FF" />
+    <circle cx="1080" cy="140" r="3.5" fill="#54E6FF" />
+    <circle cx="980" cy="480" r="3.5" fill="#7C5CFF" />
+    <circle cx="180" cy="130" r="3.5" fill="#7C5CFF" />
+  </g>
+  <g transform="translate(80,240)">
+    <rect width="150" height="150" rx="34" fill="#101722" stroke="#2E3A4D" stroke-width="2" />
+    <path d="M35 117 L60 43 L75 82 L90 43 L115 117" stroke="#D6FA65" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <circle cx="35" cy="117" r="10" fill="#D6FA65" />
+    <circle cx="60" cy="43" r="10" fill="#D6FA65" />
+    <circle cx="75" cy="82" r="10" fill="#D6FA65" />
+    <circle cx="90" cy="43" r="10" fill="#D6FA65" />
+    <circle cx="115" cy="117" r="10" fill="#D6FA65" />
+  </g>
+  <text x="270" y="305" font-family="Inter, Arial, sans-serif" font-size="92" font-weight="800" letter-spacing="6" fill="#EDF1F7">MESH</text>
+  <text x="272" y="365" font-family="Inter, Arial, sans-serif" font-size="30" fill="#A9B4C2">NETWORK × INTELLIGENCE × ACTION</text>
+  <rect x="270" y="405" width="430" height="76" rx="38" fill="#D6FA65" />
+  <text x="302" y="455" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="#101722">The AI Agent Marketplace</text>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "//": "Compiler options copied verbatim from agentHub_frontend/tsconfig.app.json. `types` adds \"node\" (the repo's content tests import node:fs) and \"vitest/globals\". The excluded files are tier `reference`: they are shipped for documentation and import the whole MESH app, which this extract does not contain.",
+  "compilerOptions": {
+    "target": "es2023",
+    "lib": ["ES2023", "DOM"],
+    "module": "esnext",
+    "types": ["vite/client", "vitest/globals", "node"],
+    "allowArbitraryExtensions": true,
+    "skipLibCheck": true,
+
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/app/router.tsx",
+    "src/lib/nav.ts",
+    "src/components/Header.tsx"
+  ]
+}

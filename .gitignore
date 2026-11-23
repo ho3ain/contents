@@ -1,0 +1,5 @@
+# bootstrap.sh regenerates these from mirror/ — never commit them
+standalone/*/workdir/
+node_modules/
+dist/
+build/

@@ -1,0 +1,949 @@
+{
+  "scanned_files": 615,
+  "dangling_count": 206,
+  "dangling": [
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./common/guards/roles.guard"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./database/migrations-boot.guard"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./database/safe-typeorm-logger"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/activation/activation.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/admin/admin.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/analytics/analytics.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/buyer-journey/buyer-journey.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/control-plane/analytics/analytics.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/control-plane/control-plane.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/control-plane/data-ops/data-ops.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/control-plane/moderation/moderation.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/control-plane/payout-ops/payout-ops.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/control-plane/risk/risk.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/control-plane/support-ops/support-ops.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/control-plane/user360/user360.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/creator-opportunities/creator-opportunities.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/creators/creators.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/discovery/discovery.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/engagement/engagement.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/growth/growth.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/health/health.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/jobs/jobs.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/monitoring/monitoring.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/release-gate/release-gate.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/review-workflow/review-workflow.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/reviews/reviews.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/success/success.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/support/support.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/trust/trust.module"
+    },
+    {
+      "file": "backend/src/app.module.ts",
+      "specifier": "./modules/users/users.module"
+    },
+    {
+      "file": "backend/src/database/seeds/seed.ts",
+      "specifier": "./seed-crm-reference"
+    },
+    {
+      "file": "backend/src/database/seeds/seed.ts",
+      "specifier": "./seed-data"
+    },
+    {
+      "file": "backend/test/blog/blog-engagement.e2e-spec.ts",
+      "specifier": "../../src/app.configuration"
+    },
+    {
+      "file": "backend/test/blog/blog-engagement.e2e-spec.ts",
+      "specifier": "../helpers/admin-world"
+    },
+    {
+      "file": "backend/test/blog/blog-engagement.e2e-spec.ts",
+      "specifier": "../helpers/lift-rate-limits"
+    },
+    {
+      "file": "backend/test/blog/blog-engagement.e2e-spec.ts",
+      "specifier": "../helpers/step-up"
+    },
+    {
+      "file": "backend/test/blog/blog-engagement.e2e-spec.ts",
+      "specifier": "../helpers/world"
+    },
+    {
+      "file": "backend/test/blog/blog-migration.e2e-spec.ts",
+      "specifier": "../../src/database/data-source"
+    },
+    {
+      "file": "backend/test/blog/blog.e2e-spec.ts",
+      "specifier": "../../src/app.configuration"
+    },
+    {
+      "file": "backend/test/blog/blog.e2e-spec.ts",
+      "specifier": "../helpers/admin-world"
+    },
+    {
+      "file": "backend/test/blog/blog.e2e-spec.ts",
+      "specifier": "../helpers/lift-rate-limits"
+    },
+    {
+      "file": "backend/test/blog/blog.e2e-spec.ts",
+      "specifier": "../helpers/step-up"
+    },
+    {
+      "file": "backend/test/blog/blog.e2e-spec.ts",
+      "specifier": "../helpers/world"
+    },
+    {
+      "file": "backend/test/seo.e2e-spec.ts",
+      "specifier": "../src/app.configuration"
+    },
+    {
+      "file": "backend/test/seo.e2e-spec.ts",
+      "specifier": "./helpers/lift-rate-limits"
+    },
+    {
+      "file": "backend/test/seo.e2e-spec.ts",
+      "specifier": "./helpers/lift-rate-limits"
+    },
+    {
+      "file": "backend/test/seo.e2e-spec.ts",
+      "specifier": "./helpers/world"
+    },
+    {
+      "file": "backend/test/seo/seo-studio.e2e-spec.ts",
+      "specifier": "../../src/app.configuration"
+    },
+    {
+      "file": "backend/test/seo/seo-studio.e2e-spec.ts",
+      "specifier": "../helpers/admin-world"
+    },
+    {
+      "file": "backend/test/seo/seo-studio.e2e-spec.ts",
+      "specifier": "../helpers/lift-rate-limits"
+    },
+    {
+      "file": "backend/test/seo/seo-studio.e2e-spec.ts",
+      "specifier": "../helpers/step-up"
+    },
+    {
+      "file": "backend/test/seo/seo-studio.e2e-spec.ts",
+      "specifier": "../helpers/world"
+    },
+    {
+      "file": "frontend/e2e/26-blog-discovery.spec.ts",
+      "specifier": "./helpers"
+    },
+    {
+      "file": "frontend/e2e/27-blog-engagement.spec.ts",
+      "specifier": "./helpers"
+    },
+    {
+      "file": "frontend/e2e/28-blog-editorial.spec.ts",
+      "specifier": "./helpers"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminAgentsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminArea"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminAuditPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminBuyerJourneyPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminCommercePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminCreatorOpportunitiesPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminCreatorsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminCrmLeadPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminCrmPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminDiscoveryPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminGrowthPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminMonitoringPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminOverviewPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminProductInsightsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminPromotionsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminReportsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminReviewQueuePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminReviewWorkspacePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminRuntimePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminTaxonomyPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminTechnicalReviewPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/AdminUsersPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/activation/AdminActivationPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminAnalyticsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminAuditArchivesPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminAuditTrailPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminControlCenterPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminModerationPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminModerationPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminPayoutOpsDetailPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminPayoutOpsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminPlatformPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminRiskPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminRiskPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminRolesPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminSearchExportsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminSearchExportsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminSupportOpsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminSupportOpsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/control/AdminUser360Page"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/finance/AdminKycDetailPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/finance/AdminKycPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/finance/AdminUsageMeteringPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/scale/AdminScaleAffiliatesPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/scale/AdminScaleAmbassadorsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/scale/AdminScaleDashboardPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/scale/AdminScaleModerationPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/scale/AdminScalePartnershipsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/scale/AdminScaleReportsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/scale/AdminScaleRewardsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/admin/success/AdminSuccessPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/auth/AuthShell"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/auth/ForgotPasswordPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/auth/LoginPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/auth/OnboardingPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/auth/RegisterPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/auth/VerifyEmailPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/auth/WelcomePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/AccessCenterPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/CheckoutReviewPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/CreateSupportRequestPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/FavoritesPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/FollowsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/InterestsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/LibraryPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/MyProductsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/MyReviewsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/NotificationsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/OrderDetailPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/OrdersPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/PaymentCallbackPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/RoleHome"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/SandboxGatewayPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/SettingsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/buyer/workspace/ProductWorkspacePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/AgentDetailCreatorPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/AgentPreviewPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/AgentSubmittedPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/AgentWizardPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CaseStudyWizardPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorAccessPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorActivationPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorAnalyticsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorArea"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorDashboardPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorMonitoringPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorOnboardingPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorProfileEditPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorReviewsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorSaleDetailPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorSalesPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorScalePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorSuccessPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/CreatorTimelinePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/EvaluationsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/GrowthCenterPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/IdeasPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/LaunchPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/MyAgentsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/PortfolioPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/ProductInsightsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/PublishFlowPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/ReferralCenterPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/ReviewCenterListPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/ReviewCenterPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/ReviewInsightPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/RuntimeCenterPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/TechnicalReviewsPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/creator/finance/CreatorFinancePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/public/AgentDetailPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/public/CategoriesPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/public/CreatorProfilePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/public/ProductComparisonPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/public/PublicCaseStudyPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/public/TaxonomyLandingPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/reference/RefExplorePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/shell/AccountArea"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/shell/DashboardContainer"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/shell/Guards"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/shell/NotFound"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/shell/PublicShell"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/support/SupportListPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/support/SupportRequestDetailPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/website/WebsiteAboutPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/website/WebsiteContactPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/website/WebsiteDevelopersPage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/website/WebsiteHomePage"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "../pages/website/WebsiteLayout"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "./ScrollToTop"
+    },
+    {
+      "file": "frontend/src/app/router.tsx",
+      "specifier": "./lazyRoute"
+    },
+    {
+      "file": "frontend/src/components/Header.tsx",
+      "specifier": "../lib/notifications-sync"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./App"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./components/ErrorBoundary"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./lib/clientErrors"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/account.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/callout.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/control.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/creator-dashboard.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/creator-landing.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/discovery.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/earn.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/finance.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/home.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/journey.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/marketing.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/mesh-cards.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/product-comparison.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/share.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/table.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/trust.css"
+    },
+    {
+      "file": "frontend/src/main.tsx",
+      "specifier": "./styles/website-surface.css"
+    }
+  ],
+  "external_packages": {
+    "@axe-core/playwright": {
+      "frontend": "^4.13.0"
+    },
+    "@fontsource-variable/vazirmatn": {
+      "frontend": "^5.3.0"
+    },
+    "@multiavatar/multiavatar": {
+      "frontend": "^1.0.7"
+    },
+    "@nestjs/common": {
+      "backend": "^11.0.1"
+    },
+    "@nestjs/config": {
+      "backend": "^4.0.4"
+    },
+    "@nestjs/core": {
+      "backend": "^11.0.1"
+    },
+    "@nestjs/jwt": {
+      "backend": "^11.0.2"
+    },
+    "@nestjs/platform-express": {
+      "backend": "^11.0.1"
+    },
+    "@nestjs/swagger": {
+      "backend": "^11.4.7"
+    },
+    "@nestjs/testing": {
+      "backend": "^11.0.1"
+    },
+    "@nestjs/throttler": {
+      "backend": "^6.7.1"
+    },
+    "@nestjs/typeorm": {
+      "backend": "^11.0.3"
+    },
+    "@playwright/test": {
+      "frontend": "^1.63.0"
+    },
+    "@testing-library/jest-dom": {
+      "frontend": "^7.0.1"
+    },
+    "@testing-library/react": {
+      "frontend": "^16.3.3"
+    },
+    "@tiptap/core": {
+      "frontend": "3.32.0"
+    },
+    "@tiptap/extension-heading": {
+      "frontend": "3.32.0"
+    },
+    "@tiptap/extension-placeholder": {
+      "frontend": "3.32.0"
+    },
+    "@tiptap/extension-table": {
+      "frontend": "3.32.0"
+    },
+    "@tiptap/pm": {
+      "frontend": "3.32.0"
+    },
+    "@tiptap/react": {
+      "frontend": "3.32.0"
+    },
+    "@tiptap/starter-kit": {
+      "frontend": "3.32.0"
+    },
+    "@xyflow/react": {
+      "frontend": "12.12.0"
+    },
+    "bcryptjs": {
+      "backend": "^2.4.3"
+    },
+    "class-transformer": {
+      "backend": "^0.5.1"
+    },
+    "class-validator": {
+      "backend": "^0.15.1"
+    },
+    "nodemailer": {
+      "backend": "^10.0.12"
+    },
+    "pg-boss": {
+      "backend": "^10.4.2"
+    },
+    "prom-client": {
+      "backend": "^15.1.3"
+    },
+    "react": {
+      "frontend": "^19.3.0"
+    },
+    "react-dom": {
+      "frontend": "^19.3.0"
+    },
+    "react-icons": {
+      "frontend": "^5.7.0"
+    },
+    "react-router-dom": {
+      "frontend": "^7.18.4"
+    },
+    "supertest": {
+      "backend": "^7.3.0"
+    },
+    "typeorm": {
+      "backend": "^0.3.31"
+    },
+    "vitest": {
+      "frontend": "^4.1.11"
+    }
+  },
+  "transitive_packages": {
+    "express": "types only (`import type`), provided by @nestjs/platform-express + @types/express",
+    "playwright": "provided by @playwright/test"
+  },
+  "ignored_non_packages": {
+    "contacted": [
+      "backend"
+    ]
+  }
+}

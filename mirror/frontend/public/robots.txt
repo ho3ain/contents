@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard
+Disallow: /library
+Disallow: /orders
+Disallow: /settings
+Disallow: /me/
+Disallow: /creator
+Disallow: /admin
+Disallow: /payment/
+Disallow: /checkout/
+
+Sitemap: http://localhost:5173/sitemap.xml
